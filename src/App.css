@@ -6,16 +6,13 @@
   padding: 0;
   font-family: "Unbounded", cursive;
 }
-
 body {
   overflow-x: hidden;
 }
-
 .bg_img {
-  width: 100%;
+
   min-height: 100vh;
-  background-color: blanchedalmond;
-  /* background: url(ob_havo.jpg) no-repeat center center/cover; */
+  background: url(https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&w=1600) no-repeat center center/cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +21,7 @@ body {
 }
 
 .input {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(218, 215, 215, 0.75);
 }
 
 .group {
@@ -40,7 +37,7 @@ body {
 
 .city,
 .temp {
-  font-size: 3rem;
+  font-size: 50px;
 }
 
 .box_container {
@@ -67,7 +64,7 @@ body {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 730px) {
+@media only screen and (max-width: 776px) {
   .bg_img {
     padding: 2rem 0;
   }
@@ -79,5 +76,6 @@ body {
   .box,
   .input {
     width: 70vw;
+    
   }
 }
